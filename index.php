@@ -1,27 +1,12 @@
-<?php
-
-/*----------------------------------------------------------------------------------------
- * Copyright (c) Microsoft Corporation. All rights reserved.
- * Licensed under the MIT License. See LICENSE in the project root for license information.
- *---------------------------------------------------------------------------------------*/
-
-function sayHello($name) {
-	echo "Hello $name!";
-}
-
-?>
-
-<html>
-	<head>
-		<title>Visual Studio Code Remote :: PHP</title>
-	</head>
-	<body>
-		<?php 
-		
-		sayHello('remote world');
-			
-		phpinfo(); 
-			
-		?>
-	</body>
+<!doctype html">
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ＰＨＰ基礎</title>
+</head>
+<body>
+<a href="input.html">アンケート回答</a>
+<br><br><br>
+<a href="member_add.html">会員登録</a>
+</body>
 </html>
